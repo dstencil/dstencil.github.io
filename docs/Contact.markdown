@@ -11,6 +11,8 @@ permalink: /contact/
   method="POST"
 >
   <label>
+    Your name:
+    <input type="name" name="name">
     Your email:
     <input type="email" name="email">
   </label>
