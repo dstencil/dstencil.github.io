@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to save & load docker images offline"
+title:  "How to use Docker Images offline"
 date:   2022-11-05 07:50:27 -0500
 categories: 
 ---
