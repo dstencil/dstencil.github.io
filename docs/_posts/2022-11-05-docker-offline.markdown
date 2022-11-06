@@ -35,7 +35,6 @@ docker save python:3.11-rc-alpine python_3.11_rc_alpine.tar
 {% endhighlight %}
 
 
-
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
