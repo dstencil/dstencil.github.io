@@ -6,7 +6,7 @@ permalink: /contact/
 
 
 <!-- modify this form HTML and place wherever you want your form -->
-<form
+<form>
   action="https://formspree.io/f/xoqbpger"
   method="POST"
   
