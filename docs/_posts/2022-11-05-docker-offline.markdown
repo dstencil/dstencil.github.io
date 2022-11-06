@@ -4,7 +4,7 @@ title:  "How to use Docker Images offline"
 date:   2022-11-05 07:50:27 -0500
 categories: 
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Are you looking for a way to save a docker image to a flash drive or take to an on-premises environment? 
 
 Create a folder for where you are going to save your docker image.
 
@@ -17,6 +17,23 @@ Enter Folder
 {% highlight console %}
 cd docker
 {% endhighlight %}
+
+Make sure you have an image from the docker repository of your choice
+
+
+{% highlight console %}
+docker pull python:3.11-rc-alpine
+{% endhighlight %}
+
+{% highlight console %}
+docker images
+{% endhighlight %}
+
+
+{% highlight console %}
+docker save python:3.11-rc-alpine python_3.11_rc_alpine.tar
+{% endhighlight %}
+
 
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
