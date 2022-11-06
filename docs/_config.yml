@@ -43,7 +43,8 @@ plugins:
 
 header_pages:
   - posts.markdown
-  - Contact.markdown
+  - contact.markdown
+  - shop.markdown
   - about.markdown
 
 # Exclude from processing.
