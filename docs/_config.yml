@@ -22,7 +22,7 @@
 minima:
   skin: dark
 
-  
+
 title: dstencil.github.io
 email: dstencil@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -43,6 +43,7 @@ plugins:
 
 header_pages:
   - posts.markdown
+  - Contact.markdown
   - about.markdown
 
 # Exclude from processing.

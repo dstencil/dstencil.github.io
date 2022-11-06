@@ -1,3 +1,10 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+---
+
+
 <form accept-charset="UTF-8" action="{https://formspree.io/f/xoqbpger}" method="POST">
   <label for="name">Name</label>
   <input type="text" id="name" name="name" required>
