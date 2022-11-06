@@ -6,10 +6,10 @@ permalink: /contact/
 
 
 <!-- modify this form HTML and place wherever you want your form -->
-<form>
+<form
   action="https://formspree.io/f/xoqbpger"
   method="POST"
-  
+>  
   <label>
     Your first name:
     <input type="first name" name="first name">
