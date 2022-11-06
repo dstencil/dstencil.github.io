@@ -5,15 +5,19 @@ permalink: /contact/
 ---
 
 
-<form accept-charset="UTF-8" action="{https://formspree.io/f/xoqbpger}" method="POST">
-  <label for="name">Name</label>
-  <input type="text" id="name" name="name" required>
-
-  <label for="email">Email</label>
-  <input type="email" id="email" name="email" required>
-
-  <label for="message">Message</label>
-  <textarea name="message"></textarea>
-
-  <button type="submit">Send message</button>
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xoqbpger"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
 </form>
