@@ -15,10 +15,10 @@ permalink: /contact/
     <input type="first name" name="first name">
   </label>
   <label>
-    <label>
     Your last name:
     <input type="last name" name="last name">
   </label>
+  <label>
     Your email:
     <input type="email" name="email">
   </label>
