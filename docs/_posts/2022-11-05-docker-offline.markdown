@@ -31,6 +31,10 @@ Check that your image has been pulled into docker on your computer:
 
 {% highlight console %}
 $ docker images
+
+REPOSITORY  TAG             IMAGE ID        CREATED         SIZE
+python      3.11-rc-alpine  123456h8d987    1 minute ago    51MB
+
 {% endhighlight %}
 
 Save the image into tarball on your computer:
@@ -45,8 +49,12 @@ You should be able to transfer that .tar file and load it with the following:
 $ docker load --input python_3_11_alpine.tar
 {% endhighlight %}
 
+Check if your image is loaded 
 {% highlight console %}
 $ docker images
+
+REPOSITORY  TAG             IMAGE ID        CREATED         SIZE
+python      3.11-rc-alpine  123456h8d987    1 minute ago    51MB
 {% endhighlight %}
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
