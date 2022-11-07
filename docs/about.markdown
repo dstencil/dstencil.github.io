@@ -3,11 +3,11 @@ layout: page
 title: About
 permalink: /about/
 ---
-![# Dylan Stencil](assets/circleimage.png){:class="img-responsive"}
+![#](assets/circleimage.png){:class="img-responsive"}
 
 
 #   Dylan Stencil
-
+## Automation Support Engineer
 
 
 
