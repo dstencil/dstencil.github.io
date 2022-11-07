@@ -6,8 +6,8 @@ permalink: /about/
 ![#](assets/circleimage.png){:class="img-responsive"}
 
 
-#   Dylan Stencil
-## Automation Support Engineer
+##   Dylan Stencil
+# Automation Support Engineer
 
 
 
