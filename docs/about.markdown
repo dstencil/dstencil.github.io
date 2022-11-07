@@ -6,7 +6,7 @@ permalink: /about/
 ![# Dylan Stencil](assets/circleimage.png){:class="img-responsive"}
 
 
-# Dylan Stencil
+#   Dylan Stencil
 
 
 
