@@ -4,7 +4,7 @@ title:  "How to use Docker Images offline"
 date:   2022-11-05 07:50:27 -0500
 categories: docker
 ---
-Are you looking for a way to save a docker image offline or to transfer to an on-premises environment? 
+Are you looking for a way to save a docker image offline or to transfer to an on-premises environment or share with your team? 
 
 Create a folder for where you are going to save your docker image.
 
