@@ -2,7 +2,7 @@
 layout: post
 title:  "How to use Docker Images offline"
 date:   2022-11-05 07:50:27 -0500
-image: assets/images/docker.jpg
+image: assets/images/docker.png
 categories: docker
 ---
 
