@@ -6,7 +6,7 @@ image: /assets/images/docker.jpg
 categories: docker
 ---
 
-![]({{page.image | relative_url}})
+![]({{ page.image | relative_url }})
 
 
 Are you looking for a way to save a docker image offline or to transfer to an on-premises environment or share with your team? 
