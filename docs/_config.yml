@@ -46,6 +46,7 @@ header_pages:
   - posts.markdown
   - contact.markdown
   - shop.markdown
+  - contact.markdown
   - about.markdown
 
 # Exclude from processing.
