@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-![image-title-here](assets/circleimage.jpg){:class="img-responsive"}
+![# Dylan Stencil](assets/circleimage.png){:class="img-responsive"}
 
 
 # Dylan Stencil
