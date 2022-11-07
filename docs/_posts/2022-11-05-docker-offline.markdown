@@ -36,7 +36,7 @@ docker images
 Save the image into tarball on your computer:
 
 {% highlight console %}
-docker save python:3.11-rc-alpine python_3.11_rc_alpine.tar
+docker save python:3.11-rc-alpine > python_3_11_alpine.tar
 {% endhighlight %}
 
 You should be able to transfer that .tar file and load it with the following:
