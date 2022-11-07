@@ -41,12 +41,20 @@ Save the image into tarball on your computer:
 
 {% highlight console %}
 $ docker save python:3.11-rc-alpine > python_3_11_alpine.tar
+$ls 
+python_3_11.tar
 {% endhighlight %}
 
 You should be able to transfer that .tar file and load it with the following:
 
 {% highlight console %}
 $ docker load --input python_3_11_alpine.tar
+1234567ds89e8: Loading layer 1.23MB/1.23MB
+1234567ds89e8: Loading layer 1.23MB/1.23MB
+1234567ds89e8: Loading layer 1.23MB/1.23MB
+1234567ds89e8: Loading layer 1.23MB/1.23MB
+1234567ds89e8: Loading layer 1.23MB/1.23MB
+Loaded image: python:3.11-rc-alpine
 {% endhighlight %}
 
 Check if your image is loaded 
@@ -57,6 +65,13 @@ REPOSITORY  TAG             IMAGE ID        CREATED         SIZE
 python      3.11-rc-alpine  123456h8d987    1 minute ago    51MB
 {% endhighlight %}
 
+
+
+{% highlight console %}
+$ docker run --name python_3.11 python:3.11-rc-alpine
+python_3.11
+
+{% endhighlight %}
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
