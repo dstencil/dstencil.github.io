@@ -42,12 +42,12 @@ plugins:
   - jekyll-remote-theme
 
 
-header_pages:
-  - posts.markdown
-  - contact.markdown
-  - shop.markdown
-  - contact.markdown
-  - about.markdown
+#header_pages:
+#  - posts.markdown
+#  - contact.markdown
+#  - shop.markdown
+#  - contact.markdown
+#  - about.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
