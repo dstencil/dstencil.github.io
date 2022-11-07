@@ -6,7 +6,7 @@ permalink: /about/
 ![image-title-here](assets/image.jpg){:class="img-responsive"}
 
 
-Dylan Stencil
+# Dylan Stencil
 
 
 
