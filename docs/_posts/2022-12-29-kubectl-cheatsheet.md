@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Kubectl Cheatsheet"
+date:   2022-12-29 10:30:27 -0500
+categories: kubernetes
+---
+
+
 # Basic Kubernetes Commands for troubleshooting
 
 To view all nodes in cluster:
