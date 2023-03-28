@@ -30,11 +30,15 @@ Now that we have the Python 3.12-slim-bullseye Docker image, we can create a Doc
 Dockerfile in the same directory as your project files.
 
 In the 
-Dockerfile
-, we will add the following lines:
+Dockerfile we will add the following lines:
 
 {% highlight console %}
-FROM python:3.12-slim-bullseye
+
+FROM python:3.12.0a6-slim-bullseye
+
+WORKDIR scripts
+
+COPY /scripts /scripts
 
 RUN pip install pylogix
 
@@ -48,11 +52,12 @@ This tells Docker to use the Python 3.12-slim-bullseye image as the base image a
 Now that we have created the Dockerfile, we can build the Docker image. To do this, run the following command in your terminal:
 
 {% highlight console %}
+
 docker build -t pylogix .
+
 {% endhighlight %}
 
-This will create a Docker image with the name you specified in the 
-<image-name> field.
+This will create a Docker image with the name you specified in the <image-name> field.
 
 ### Step 4 - Run the Docker Image
 Now that we have built the Docker image, we can run it. To do this, run the following command in your terminal:
@@ -64,5 +69,6 @@ docker run -it pylogix
 
 This will start the Docker container and you will be able to use PyLogix inside it.
 
-Conclusion
+### Conclusion
+  
 In this tutorial, we showed you how to create a Dockerfile from a Python 3.12-slim-bullseye Docker image and install PyLogix. We also showed you how to build and run the Docker image. With this knowledge, you can now create and manage Docker images for your applications.
